@@ -1,0 +1,6 @@
+pandas==2.3.0
+streamlit==1.48.0
+random
+time
+pickle
+scikit-learn==1.5.1
