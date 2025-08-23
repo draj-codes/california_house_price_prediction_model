@@ -13,7 +13,7 @@ col=[ 'MedInc' , 'HouseAge' , 'AveRooms' , 'AveBedrms' , 'Population' , 'AveOccu
 
 st.title("Calafornia Housing Price Prediction") #this give the title of our page
 
-st.image("https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2021/03/chaitali-majumder/house-price-497112-KhCJQICS.jpg") #this is our image show in main page
+st.image("https://user-images.githubusercontent.com/72307306/186478948-2703db82-9c02-4b45-8a6e-c09801418526.png") #this is our image show in main page
 
 st.header("model of housing prices to predict median house values in California",divider=True) #its our header of the site, and divider is used to divide our header 
 
@@ -63,4 +63,5 @@ if price>0:
     
 else:
     body="Incalid House feature"
+
     st.warning(body)
